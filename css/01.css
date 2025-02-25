@@ -63,13 +63,14 @@ li {
 
 .wrap .header .inner {
     color: #fff;
-    width: 1732px;
+    max-width: 1732px;
     height: 100%;
     background-color: rgba(196, 196, 196, 0.027);
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 
 .wrap .inner .menu {
