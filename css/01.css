@@ -17,6 +17,10 @@
   }
  */
 
+body {
+    min-width: 1920px;
+}
+
 .wrap {
     font-family: 'Pretendard-Regular';
 }
