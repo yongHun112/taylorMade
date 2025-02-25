@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>테일러메이드</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/01.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <script>
+        window.onload = () => {
+            var swiper = new Swiper(".visual_Swiper", {
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false,
+                },
+            });
+        
+            var swiper = new Swiper(".mySwiper", {
+                effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+         });
+
+            var swiper = new Swiper(".newSwiper", {
+                scrollbar: {
+                    el: ".swiper-scrollbar",
+                    hide: true,
+                },
+            });
+
+            AOS.init();
+        }
+
+    </script>
+
+</head>
+<body>
+    <div class="wrap">
+        <header class="header">
+            <div class="inner">
+                <div class="menu">
+                    <h1 class="logo">
+                        <a onClick="window.location.reload()" style="cursor: pointer;"><img src="img/logo_white2.png" alt=""></a>
+                    </h1>   <!-- logo end -->
+                    <nav class="nav">
+                        <ul class="gnb">
+                            <li><a href="https://www.taylormadegolf.co.kr/taylormade-clubs/?lang=ko_KR">클럽</a></li>
+                            <li><a href="https://www.taylormadegolf.co.kr/accessories-2/?lang=ko_KR">백&액세서리</a></li>
+                            <li><a href="https://www.taylormadegolf.co.kr/balls-2/?lang=ko_KR">골프볼</a></li>
+                            <li><a href="https://www.taylormadegolf.co.kr/custom.html?lang=ko_KR">커스텀샵</a></li>
+                            <li><a href="https://www.taylormadegolf.co.kr/event.html?lang=ko_KR">이벤트/프로모션</a></li>
+                            <li><a href="https://www.taylormadeapparel.co.kr/">의류</a></li>
+                        </ul>   <!-- gnb end -->
+                    </nav>  <!-- nav end -->
+                </div>  <!-- menu end -->
+
+                <ul class="util">
+                    <li><a href="#"><img src="img/icon_search2.svg" alt=""></a></li>
+                    <li><a href="#"><img src="img/icon_mypage2.svg" alt=""></a></li>
+                    <li><a href="#"><img src="img/icon_cart2.svg" alt=""></a></li>
+                </ul>   <!-- util end -->
+            </div>  <!-- inner end -->
+        </header>   <!-- header end -->
+
+        <main class="main">
+            <section class="main_visual">
+                <div class="swiper visual_Swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/TP5Stripe_PC_2000x876.jpg" alt="">
+                            <div class="button">
+                                <a href="https://www.taylormadegolf.co.kr/taylormade/tp5-golf-ball/DW-TA541.html?lang=ko_KR">자세히 보기</a>
+                            </div>  <!-- button end -->
+                        </div>    <!-- swiper-slide -->
+
+                        <div class="swiper-slide">
+                            <img src="img/TME25-P790_Marquee_Desktop_2000x876.jpg" alt="">
+                            <div class="button">
+                                <a href="https://www.taylormadegolf.co.kr/taylormade/2025-p%E2%88%99790-irons/DW-TH323.html?lang=ko_KR">자세히 보기</a>
+                            </div>  <!-- button end -->
+                        </div>    <!-- swiper-slide -->
+
+                        <div class="swiper-slide">
+                            <img src="img/TME24-PSeries-IndexMarq-2000x876-B.jpg" alt="">
+                            <div class="button">
+                                <a href="https://www.taylormadegolf.co.kr/taylormade/2024-p%E2%88%99770-irons/DW-TH195-KR.html?lang=ko_KR">자세히 보기</a>
+                            </div>  <!-- button end -->
+                        </div>    <!-- swiper-slide -->
+                    </div>  <!-- swiper-wrapper -->
+                </div>    <!-- swiper visual_Swiper end -->
+            </section>  <!-- main_visual end -->
+
+            <section class="section-01">
+                <h2 data-aos="zoom-in" data-aos-duration="1000">NEW ITEMS</h2>
+                <div class="item_wrap">
+
+                    <div class="item_box01" data-aos="zoom-in"data-aos-duration="1000">
+
+                        <a href="https://www.taylormadegolf.co.kr/2025_all_new_gloire.html">
+                            <div class="item">
+                                <div class="image_box">
+                                    <img src="img/event-club_image4.png" alt="">
+                                </div>  <!-- image_box -->
+                                <div class="text">
+                                    <strong>2025 ALL NEW Glory Collection</strong>
+                                    <p>오직 여성 골퍼들을 위해 새롭게 탄생한 2025 ALL NEW 글로리
+                                            컬렉션을 소개합니다. 글로리 민티 블루와 실버의 조화가 만든
+                                            스타일리쉬함과 테일러 메이드만의 기술로 더욱 강력해진 퍼포먼스,
+                                            그리고 나를 더욱 빛나게 해 줄 다양한 라인을 만나보세요.</p>
+                                </div>  <!-- text end -->
+                            </div>  <!-- item end -->
+                        </a>
+
+                        <a href="https://www.taylormadegolf.co.kr/250131_eventlanding_FebPerformaceDay.html">
+                            <div class="item">
+                                <div class="image_box">
+                                    <img src="img/250131_feb_performanceday~W600_Mcrop_aspectRatio1-3333333333333_Fjpg_P50-50.jpg" alt="">
+                                </div>  <!-- image_box -->
+                                <div class="text">
+                                    <strong>PERFORMANCE FITTING</strong>
+                                    <p>투어 수준의 피팅을 통해 나만을 위한 스윙을
+                                        가지고 향상된 실력과 자신감을 얻어보세요.</p>
+                                </div>  <!-- text end -->
+                            </div>  <!-- item end -->
+                        </a>
+
+                    </div>  <!-- item_box01 -->   
+
+                    <div class="item_box02" data-aos="zoom-in" data-aos-duration="2000">
+
+                        <a href="https://www.taylormadegolf.co.kr/taylormade-exclusiveballs/?lang=ko_KR">
+                            <div class="item">
+                                <div class="image_box">
+                                    <img src="img/TM24BAL-TP5-TP5x-PIX-Tiki-Studio-JPO-01512-v1-2048x2048~W600_Mcrop_aspectRatio1-3333333333333_Fjpg_P50-50.jpg" alt="">
+                                </div>  <!-- image_box -->
+                                <div class="text">
+                                    <strong>Tiki Collection</strong>
+                                    <p>Tiki 컬렉션과 함께 잔잔한 파도가 일렁이는 몰로카이 섬으로
+                                        휴양을 떠나보세요.</p>
+                                </div>  <!-- text end -->
+                            </div>  <!-- item end -->
+                        </a>
+
+                        <a href="https://www.taylormadegolf.co.kr/taylormade/my-hi-toe-4-wedge/DW-TC634.html?lang=ko_KR">
+                            <div class="item">
+                                <div class="image_box">
+                                    <img src="img/TM24WDG_TC634_N2898709_MyHiToe4_BMB_MyHiToe40283_v2~W600_Mcrop_aspectRatio1-3333333333333_Fjpg_P50-50.jpg" alt="">
+                                </div>  <!-- image_box -->
+                                <div class="text">
+                                    <strong>My HI-TOE 4</strong>
+                                    <p>더 거친 환경도 나만의 스타일로 최적화된,
+                                        My HI-TOE 4</p>
+                                </div>  <!-- text end -->
+                            </div>  <!-- item end -->
+                        </a>
+
+                    </div>  <!-- item_box02 -->   
+
+                    <div class="item_box03" data-aos="zoom-in" data-aos-duration="3000">
+
+                        <a href="https://www.taylormadegolf.co.kr/taylormade/qi35-driver/DW-TF994.html?lang=ko_KR">
+                            <div class="item">
+                                <div class="image_box">
+                                    <img src="img/TME25-Qi35-core-PDP-Hero~W600_H500_Mcrop_P69-63-54-79.jpg" alt="">
+                                </div>  <!-- image_box -->
+                                <div class="text">
+                                    <strong>Qi35 Driver</strong>
+                                    <p>Qi35 드라이버는 제로에 가까운 낮은 페이스 중심 포인트(CG Projection)로 빠른 볼 스피드와 최적의 스핀을 제공하여 폭발적인 비거리를 완성시켜줍니다.</p>
+                                </div>  <!-- text end -->
+                            </div>  <!-- item end -->
+                        </a>
+
+                        <a href="https://www.taylormadegolf.co.kr/taylormade/qi35-weight-kit/DW-Y0445-25.html?lang=ko_KR">
+                            <div class="item">
+                                <div class="image_box">
+                                    <img src="img/FittingUS_Technology_Slot2~W600_H432_Mcrop_P50-50.jpg" alt="">
+                                </div>  <!-- image_box -->
+                                <div class="text">
+                                    <strong>Qi35 Weight Kit</strong>
+                                    <p>Qi35 LS 와 Qi35 드라이버에서 사용할 수 있는
+                                        Qi35 웨이트 키트로 나에게 맞는 피팅을 완성해 보세요.
+                                        </p>
+                                </div>  <!-- text end -->
+                            </div>  <!-- item end -->
+                        </a>
+
+                        <a href="https://www.taylormadegolf.co.kr/taylormade/2025-tour-response-golf-balls/V9946501.html?lang=ko_KR">
+                            <div class="item">
+                                <div class="image_box">
+                                    <img src="img/Layer 2.jpg" alt="">
+                                </div>  <!-- image_box -->
+                                <div class="text">
+                                    <strong>2025 Tour Response Golf Balls</strong>
+                                    <p>더욱 선명하고 향상된 360° 클리어패스 얼라인먼트™와 100% 캐스트 우레탄 커버로
+                                        투어 레벨의 퍼포먼스를 경험하세요.​</p>
+                                </div>  <!-- text end -->
+                            </div>  <!-- item end -->
+                        </a> 
+
+                    </div>  <!-- item_box03 -->   
+
+                </div>  <!-- item_wrap -->
+            </section>  <!-- section-01 end -->
+
+            <section class="section-02">
+                <div class="box" data-aos="zoom-in"data-aos-duration="1000">
+                    <img src="img/future_golf_team_taylormade.jpg" alt="">
+                    <a href="https://www.taylormadegolf.co.kr/tourplayers.html?lang=ko_KR">
+                        <p data-aos="zoom-in"data-aos-duration="1500">팀 보러가기</p>
+                    </a>
+                </div>  <!-- end box -->
+            </section>  <!-- section-02 end -->
+
+            <section class="section-03">
+                <h2 data-aos="zoom-in"data-aos-duration="1000">Tour Pro Clubs</h2>
+
+                <div class="swiper mySwiper" data-aos="zoom-in"data-aos-duration="2000">
+                    <div class="swiper-wrapper">
+
+                          <div class="swiper-slide">
+                            <a href="https://www.taylormadegolf.co.kr/tourplayers/tiger-woods.html?lang=ko_KR">
+                                <img src="img/tiger woods.jpg" />
+                                <p>Tiger Woods</p>
+                            </a>
+                          </div>
+
+                          <div class="swiper-slide">
+                            <a href="https://www.taylormadegolf.co.kr/tourplayers/rory-mcilroy.html?lang=ko_KR">
+                                <img src="img/McIlroy.jpg" />
+                                <p>Rory McIlroy</p>
+                            </a>
+                          </div>
+
+                          <div class="swiper-slide">
+                            <a href="https://www.taylormadegolf.co.kr/tourplayers/scottie-scheffler.html?lang=ko_KR">
+                                <img src="img/2023-scheffler2~W300_H400_Mcrop_P50-50.jpg" />
+                                <p>SCOTTIE SCHEFFLER</p>
+                            </a>
+                          </div>
+
+                          <div class="swiper-slide">
+                            <a href="https://www.taylormadegolf.co.kr/tourplayers/collin-morikawa.html?lang=ko_KR">
+                                <img src="img/2023-morikawa2~W300_H400_Mcrop_P50-50.jpg" />
+                                <p>COLLIN MORIKAWA</p>
+                            </a>
+                          </div>
+
+                          <div class="swiper-slide">
+                            <a href="https://www.taylormadegolf.co.kr/tourplayers/nelly-korda.html?lang=ko_KR">
+                                <img src="img/2023-nelly2~W300_H400_Mcrop_P50-50.jpg" />
+                                <p>Nelly Korda</p>
+                            </a>
+                          </div>
+
+                          <div class="swiper-slide">
+                            <a href="https://www.taylormadegolf.co.kr/tourplayers/brooke-henderson.html?lang=ko_KR">
+                                <img src="img/2023-henderson~W300_H400_Mcrop_P50-50.jpg" />
+                                <p>Brooke Henderson</p>
+                            </a>
+                          </div>
+
+                          <div class="swiper-slide">
+                            <a href="https://www.taylormadegolf.co.kr/tourplayers/tommy-fleetwood.html?lang=ko_KR">
+                                <img src="img/2023-fleetwood2~W300_H400_Mcrop_P50-50.jpg" />
+                                <p>Tommy Fleetwood</p>
+                            </a>
+                          </div>
+
+                          <div class="swiper-slide">
+                            <a href="https://www.taylormadegolf.co.kr/tourplayers/charley-hull.html?lang=ko_KR">
+                                <img src="img/2023-hull~W300_H400_Mcrop_P50-50.jpg" />
+                                <p>Charley Hull</p>
+                            </a>
+                          </div>
+
+                          <div class="swiper-slide">
+                            <a href="https://www.taylormadegolf.co.kr/tourplayers/shpark.html?lang=ko_KR">
+                                <img src="img/2023-park~W300_H400_Mcrop_P50-50.jpg" />
+                                <p>Sung Hyun Park</p>
+                            </a>
+                          </div>
+
+                          <div class="swiper-slide">
+                            <a href="https://www.taylormadegolf.co.kr/tourplayers/maria-fassi.html?lang=ko_KR">
+                                <img src="img/LandingPage_TeamTM_Headshot_Fassi~W300_H400_Mcrop_P50-50.jpg" />
+                                <p>Maria Fassi</p>
+                            </a>
+                          </div>
+
+                      
+
+
+            </section>
+
+            <section class="section-04">
+                <h2 data-aos="zoom-in"data-aos-duration="1000">News</h2>
+                <h5  data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" data-aos-duration="3000">〈〈  옆으로 슬라이드  〉〉</h5>
+                <div class="swiper newSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="news_wrap">
+                                <div class="image" data-aos="fade-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine" data-aos-duration="1000">
+                                    <img src="img/Rory-McIlroy-TP5-Golf-Ball-Pebble-Beach-Final-Round~W1000_H563_Mcrop_P50-5-20-44.jpg" alt="">
+                                </div>  <!-- image end -->
+                                <div class="text" data-aos="fade-left"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine" data-aos-duration="2000">
+                                    <strong>로리 맥길로이 , TP5 골프볼과 스파이더 투어 X로
+                                        페블비치에서 우승</strong>
+                                    <p>로리 맥길로이(Rory McIlroy)가 궂은 조건과 치열한 경쟁을 뚫고 AT&T 페블 비치 
+                                        프로암(AT&TPebble Beach Pro-Am)에서 자신의 27번째 PGA 투어 우승을 차지
+                                        했습니다. 3라운드를 보기 없이 65타를 기록한 맥길로이는 마지막 라운드에서 
+                                        66타를 기록하여 최종 합계 21언더파(66-70-65-66), 2타 차로 우승을 확정했
+                                        습니다. 이번 승리로 맥길로이는 PGA 투어에서 8년연속 우승을 달성했습니다.</p>
+                                    <a href="https://www.taylormadegolf.co.kr/clubhouse/920744-rory-mcilroy-250204-kr.html?lang=ko_KR" data-aos="zoom-in"data-aos-duration="1500">더 보러가기 →</a>    
+                                </div>  <!-- text end -->
+                            </div>  <!-- news_wrap end -->
+                        </div>  <!-- swiper-slide end -->
+
+                        <div class="swiper-slide">
+                            <div class="news_wrap">
+                                <div class="image" data-aos="fade-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine" data-aos-duration="1000">
+                                    <img src="img/image2.jpg" alt="">
+                                </div>  <!-- image end -->
+                                <div class="text" data-aos="fade-left"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine" data-aos-duration="2000">
+                                    <strong>스코티 셰플러, Qi10 드라이버와 스파이더 투어 X 퍼터로 히어로 월드 챌린지 방어 성공</strong>
+                                    <p>많은 이들은 스코티 셰플러(Scottie Scheffler)가 투어 챔피언십(TOUR Championship)에서 거둔 승리가 세계 랭킹 1위로서 역사적인 시즌을 마무리하는 데 적절하다고 생각했습니다. 하지만 그는 지난 일요일 히어로 월드 챌린지(Hero World Challenge)에서 63타를 기록하여 6타 차로 승리하며 앙코르 퍼포먼스를 보여주었습니다.</p>
+                                    <a href="https://www.taylormadegolf.co.kr/clubhouse/864864-scottie-scheffler-wins-for-the-8th-time-kr.html?lang=ko_KR">더 보러가기 →</a>
+                                </div>  <!-- text end -->
+                                
+                            </div>  <!-- news_wrap end -->
+                        </div>  <!-- swiper-slide end -->
+
+                        <div class="swiper-slide">
+                            <div class="news_wrap">
+                                <div class="image" data-aos="fade-right"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine" data-aos-duration="1000">
+                                    <img src="img/imag3.jpg" alt="">
+                                </div>  <!-- image end -->
+                                <div class="text" data-aos="fade-left"
+                                data-aos-offset="300"
+                                data-aos-easing="ease-in-sine" data-aos-duration="2000">
+                                    <strong>넬리 코다, 2024년 7번째 우승 달성</strong>
+                                    <p>2024 롤렉스 올해의 선수상을 이미 확보한 넬리 코다(Nelly Korda)는 지난 주말 안니카 대회(The ANNIKA)에서 시즌 7번째 우승을 달성했습니다. 그녀는 3라운드에서 6타 차를 뒤집고 최종 라운드에서 67타를 기록하며 혼잡한 리더보드를 헤쳐 나갔습니다.</p>
+                                    <a href="https://www.taylormadegolf.co.kr/clubhouse/857561-nelly-korda-7th-kr.html?lang=ko_KR">더 보러가기 →</a>
+                                </div>  <!-- text end -->
+                            </div>  <!-- news_wrap end -->
+                        </div>  <!-- swiper-slide end -->
+                    </div> <!-- swiper -wrapper end -->  
+                    <div class="swiper-scrollbar"></div>
+
+                </div>  <!-- swiper newsSwiper end -->
+            </section>  <!-- section-04 end -->
+
+        <footer class="footer">
+            <div class="wrap">
+                <div class="box_wrap">
+
+                    <div class="box">
+                        <div class="box_inner">
+                            <h3>HELP</h3>
+                            <ul class="text">
+                                <li><a href="https://www.taylormadegolf.co.kr/customerService-faqs.html?lang=ko_KR">자주 묻는 질문 (FAQ)</a></li>
+                                <li><a href="https://www.taylormadegolf.co.kr/privacy-policy-240401.html?lang=ko_KR">개인정보처리방침</a></li>
+                                <li><a href="https://www.taylormadegolf.co.kr/terms-and-condition-220728.html?lang=ko_KR">홈페이지 이용약관</a></li>
+                                <li><a href="https://www.taylormadegolf.co.kr/cyber-mall-terms-220728.html?lang=ko_KR">사이버몰 이용약관</a></li>
+                                <li><a href="https://www.taylormadegolf.co.kr/on/demandware.store/Sites-TMaG-KR-Site/ko_KR/ProductRegistration-Show">정품 클럽 조회 및 등록</a></li>
+                                <li><a href="https://www.taylormadegolf.co.kr/supplier-transparency.html?lang=ko_KR">공정거래제도</a></li>
+                            </ul>   <!-- text end -->
+                        </div>  <!-- box_inner -->
+
+                        <div class="box_inner">
+                            <h3>OUR OFFERINGS</h3>
+                            <ul class="text">
+                                <li><a href="https://www.taylormadegolf.co.kr/qi35.html?lang=ko_KR">Qi35 시리즈</a></li>
+                                <li><a href="https://www.taylormadegolf.co.kr/p790-irons-p-series.html?lang=ko_KR">P700 시리즈</a></li>
+                                <li><a href="https://www.taylormadegolf.co.kr/custom.html?lang=ko_KR">커스텀 프로그램</a></li>
+                                <li><a href="https://www.taylormadegolf.co.kr/ball-catalog.html?lang=ko_KR">볼 카탈로그 다운받기</a></li>
+                            </ul>   <!-- text end -->
+                        </div>  <!-- box_inner -->
+
+                        <div class="box_inner">
+                            <h3>COMPANY INFO</h3>
+                            <ul class="text">
+                                <li><a href="https://www.taylormadegolf.co.kr/taylormade-legacy-innovation-and-performance.html?lang=ko_KR">Taylormade Since 1979</a></li>
+                                <li><a href="https://www.taylormadegolf.co.kr/retailers?lang=ko_KR">매장찾기</a></li>
+                                <li><a href="https://help.taylormadegolf.com/ko-KR/contact-us-kor/">이메일 문의</a></li>
+                                <li><a href="https://www.taylormadegolf.co.kr/taylormade-application.html?lang=ko_KR">테일러메이드 교습가 지원</a></li>
+                            </ul>   <!-- text end -->
+                        </div>  <!-- box_inner -->
+                    </div>  <!-- box end -->
+
+                    <div class="logo">
+                        <img src="img/logo_white2.png" alt="">
+                    </div>  <!-- logo end -->
+
+                    <div class="info">
+                        <ul class="text">
+                            <li>(유) 테일러메이드코리아</li>
+                            <li>대표자: 임헌영</li>
+                            <li>사업자등록번호: 214-86-42321</li>
+                            <li>통신판매업신고번호: 제2023-서울강남-03325호</li>
+                            <li>본사: 서울특별시 강남구 논현로 508 GS타워 11층</li>
+                            <li>이메일: fs.kr@taylormadegolf.com</li>
+                            <li>대표전화: 02-6410-8051</li>
+                            <li>A/S센터: 서울특별시 서초구 남부순환로289길 5 삼영빌딩 1층</li>
+                            <li>테일러메이드 퍼포먼스센터: 02-6410-8185</li>
+                            <li>개인정보 관리책임자 : 이석재</li>
+                        </ul>   <!-- text end -->
+                    </div>  <!-- info -->
+
+                    <div class="icon_box">
+                        <ul class="icon">
+                            <li><a href="https://ko-kr.facebook.com/TaylorMadeGolfKorea/" target="_blank"><img src="img/icon_facebook.png" alt=""></a></li>
+                            <li><a href="https://www.instagram.com/taylormadegolf_korea/" target="_blank"><img src="img/icon_instagram.png" alt=""></a></li>
+                            <li><a href="https://www.youtube.com/channel/UC05ROZGtJacB84DWOHCqirw" target="_blank"><img src="img/youtube_3884526.png" alt=""></a></li>
+                        </ul>   <!-- icon end -->
+
+                        <img src="img/Group 28.png" alt="">
+                    </div>  <!-- icon_box end -->
+                </div>  <!-- box_wrap -->
+            </div>  <!-- wrap end -->
+        </footer>   <!-- footer end -->
+
+        </main> <!-- main end -->
+
+        </section>
+    </div>  <!-- wrap end -->
+</body>
+</html>
