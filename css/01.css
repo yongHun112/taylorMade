@@ -65,7 +65,7 @@ li {
     color: #fff;
     max-width: 1732px;
     height: 100%;
-    background-color: rgba(196, 196, 196, 0.027);
+    background-color: rgba(196, 196, 196, 0);
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -101,7 +101,7 @@ li {
 
 .wrap .inner .nav .gnb li {
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 .wrap .inner .nav .gnb li:nth-child(6) {
