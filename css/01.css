@@ -18,7 +18,7 @@
  */
 
 body {
-    min-width: 1920px;
+    max-width: 1920px;
 }
 
 .wrap {
@@ -64,6 +64,7 @@ li {
 .wrap .header .inner {
     color: #fff;
     max-width: 1732px;
+    width: clac(100% - 60px);
     height: 100%;
     background-color: rgba(196, 196, 196, 0.027);
     margin: 0 auto;
@@ -174,13 +175,15 @@ li {
 }
 
 .main_visual .visual_Swiper .swiper-wrapper .swiper-slide {
-    height: 900px;
+    height: 100%;
+    
 }
 
 .main_visual .swiper-wrapper .swiper-slide img {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    display: block;
 }
 
 .main_visual .swiper-slide .button {
